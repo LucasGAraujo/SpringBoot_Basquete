@@ -1,0 +1,21 @@
+14:51:34.735 867  [main] INFO  c.p.t.c.JogadorControllerTest - Starting JogadorControllerTest using Java 21.0.1 with PID 2656 (started by lukin in C:\Users\lukin\OneDrive\Área de Trabalho\timebasquete)
+14:51:34.736 868  [main] DEBUG c.p.t.c.JogadorControllerTest - Running with Spring Boot v3.2.0, Spring v6.1.1
+14:51:34.736 868  [main] INFO  c.p.t.c.JogadorControllerTest - No active profile set, falling back to 1 default profile: "default"
+14:51:35.486 1618 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+14:51:35.565 1697 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 66 ms. Found 2 JPA repository interfaces.
+14:51:36.105 2237 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+14:51:36.190 2322 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.3.1.Final
+14:51:36.240 2372 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+14:51:36.551 2683 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+14:51:36.598 2730 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+14:51:36.899 3031 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:file:./db_jogadorbasquete user=SA
+14:51:36.903 3035 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+14:51:37.718 3850 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+14:51:37.764 3896 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+14:51:38.778 4910 [main] INFO  c.p.t.TimebasqueteApplication - [CONSUMO API EXTERNA---------------[DOLAR PARA REAL]---------------] - - -- - - - - - - - Valor do dólar para o Real: 4.9   2023-12-08 14:51:35
+14:51:39.482 5614 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+14:51:39.871 6003 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./db_jogadorbasquete'
+14:51:39.979 6111 [main] INFO  c.p.t.c.JogadorControllerTest - Started JogadorControllerTest in 5.445 seconds (process running for 6.735)
+14:51:40.751 6883 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+14:51:40.753 6885 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+14:51:40.755 6887 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
